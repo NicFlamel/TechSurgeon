@@ -295,88 +295,141 @@
 											 </div>
 										  </div>
 										</div>
-										
-										<div class="col-md-12">   
-											<div class="block">
-												<div class="block-title">
-													<div class="block-options pull-right">
-														<a href="javascript:void(0)" class="btn btn-effect-ripple btn-danger" data-toggle="tooltip" title="" style="overflow: hidden; position: relative;" data-original-title="Delete User"><i class="fa fa-trash-o"></i></a>
-													</div>
-													<h3><i class="fa fa-user"></i> Customer Info</h3>
-												</div>
-
-												<div class="block-section">
-													<div class="row">
-														<div class="col-md-6">
-															<h2>'.$name.'</h2>
-															<p>Customer online profile <a href="#">link</a></p>
-															<p>Account created on: '.date("F j, Y, g:i A", $date).'</p>
+										<div class="row">
+											<div class="col-md-12">   
+												<div class="block">
+													<div class="block-title">
+														<div class="block-options pull-right">
+															<a href="javascript:void(0)" class="btn btn-effect-ripple btn-danger" data-toggle="tooltip" title="" style="overflow: hidden; position: relative;" data-original-title="Delete User"><i class="fa fa-trash-o"></i></a>
 														</div>
-														<div class="col-md-6">
-															<h2>Contact Info</h2>
-															<h3>Address</h3>
-															<ul class="list-unstyled">
-																<li>'.$firstname.' '.$lastname.'</li>
-																<li>'.$businessnameaddy.'</li>
-																<li>'.$address.'</li>
-																<li>'.$city.' '.$state.' '.$zip.'</li>
-																<li>USA</li>
-															</ul>
+														<h3><i class="fa fa-user"></i> Customer Info</h3>
+													</div>
+
+													<div class="block-section">
+														<div class="row">
+															<div class="col-md-6">
+																<h2>'.$name.'</h2>
+																<p>Customer online profile <a href="#">link</a></p>
+																<p>Account created on: '.date("F j, Y, g:i A", $date).'</p>
+															</div>
+															<div class="col-md-6">
+																<h2>Contact Info</h2>
+																<h3>Address</h3>
+																<ul class="list-unstyled">
+																	<li>'.$firstname.' '.$lastname.'</li>
+																	<li>'.$businessnameaddy.'</li>
+																	<li>'.$address.'</li>
+																	<li>'.$city.' '.$state.' '.$zip.'</li>
+																	<li>USA</li>
+																</ul>
+															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-										</div>
 										
-							<div class="col-lg-6">
-                                <div class="block">
-                                    <div class="block-title">
-                                        <h2>Invoices</h2>
-                                    </div>
-                                    <table class="table table-condensed ">
-                                        <thead>
-                                            <tr>
-                                                <th>ID</th>
-                                                <th>Status</th>
-                                                <th>Date</th>
-												<th>Total</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><strong>1</strong></td>
-                                                <td><strong>Finalized</strong></td>
-                                                <td><strong>02-04-16</strong></td>
-                                                <td><strong>$69.99</strong></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+								<div class="col-lg-6">
+									<div class="block">
+										<div class="block-title">
+											<h2>Invoices</h2>
+										</div>
+										<table class="table table-condensed ">
+											<thead>
+												<tr>
+													<th>ID</th>
+													<th>Status</th>
+													<th>Date</th>
+													<th>Total</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><strong><a href="#">#1</a></strong></td>
+													<td><strong>Finalized</strong></td>
+													<td><strong>02-04-16</strong></td>
+													<td><strong>$69.99</strong></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="block">
+										<div class="block-title">
+											<h2>Payments</h2>
+										</div>
+										<table class="table table-condensed ">
+											<thead>
+												<tr>
+													<th>Date</th>
+													<th>Amount</th>
+													<th>Method</th>
+													<th>Invoice</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><strong>11-12-16</strong></td>
+													<td><strong>$100.00</strong></td>
+													<td><strong>Cash</strong></td>
+													<td><strong><a href="#">#7162</a></strong></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
                             </div>
-							<div class="col-lg-6">
-                                <div class="block">
-                                    <div class="block-title">
-                                        <h2>Payments</h2>
-                                    </div>
-                                    <table class="table table-condensed ">
-                                        <thead>
-                                            <tr>
-                                                <th>Date</th>
-                                                <th>Amount</th>
-                                                <th>Method</th>
-												<th>Invoice</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><strong>11-12-16</strong></td>
-                                                <td><strong>$100.00</strong></td>
-                                                <td><strong>Cash</strong></td>
-                                                <td><strong><a href="#">#7162</a></strong></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="block">
+										<div class="block-title">
+											<h2>Assets</h2>
+										</div>
+										<table class="table table-condensed ">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Serial Number</th>
+													<th>Type</th>
+													<th>Action</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><strong>iPhone 5s</strong></td>
+													<td><strong>352066060926230</strong></td>
+													<td><strong>Phone</strong></td>
+													<td><button type="submit" name="viewAsset" id="viewAsset" class="btn btn-effect-ripple btn-primary" style="overflow: hidden; position: relative;">View</button></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="block">
+										<div class="block-title">
+											<h2>Tickets</h2>
+										</div>
+										<table class="table table-condensed ">
+											<thead>
+												<tr>
+													<th>ID</th>
+													<th>Date Created</th>
+													<th>Subject</th>
+													<th>Status</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><strong><a href="#">#7162</a></strong></td>
+													<td><strong>02-02-16</strong></td>
+													<td><strong>iPhone 5s Broken Screen</strong></td>
+													<td><span class="label label-success">Finalized</span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
                             </div>
 									
 									';
